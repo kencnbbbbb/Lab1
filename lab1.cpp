@@ -2,6 +2,7 @@
 #include <cmath>
 
 using namespace std;
+// не
 // решил конфликт
 // привет
 // Комментарий 
