@@ -3,6 +3,7 @@
 
 using namespace std;
 // привет
+// Комментарий 
 // вычисление периметра треугольника
 double Perimeter(double a, double b, double c) {
     return a + b + c;
