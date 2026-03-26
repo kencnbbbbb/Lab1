@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-// привет привет
+// привет привет ghbdtn
 // вычисление периметра треугольника
 double Perimeter(double a, double b, double c) {
     return a + b + c;
