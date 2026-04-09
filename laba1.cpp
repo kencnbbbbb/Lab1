@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <cmath>
 using namespace std;
-
+//pupupu
 double rectangle_perimetr(double a, double b) {
 	
 	return (a + b) * 2;
