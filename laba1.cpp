@@ -11,9 +11,11 @@ double rectangle_squer(double a, double b) {
 	return a * b;
 }
 double rectangle_diagonal(double a, double b) {
+        
 	
 	return sqrt(pow(a, 2) + pow(b, 2));
 }
+
 
 
 
@@ -27,8 +29,13 @@ int main()
 	double a; double b;
 	cout << "Введите длинну стороны A" << endl;
 	cin >> a;
+	
 	cout << "Введите длинну стороны B" << endl;
 	cin >> b;
+	if ((a <= 0) or (b <= 0)){
+	cout << "Ошибка" << endl;
+	return 0;}
+	
 	if (numb == 1) {
 		cout << rectangle_perimetr(a,b);
 	}
